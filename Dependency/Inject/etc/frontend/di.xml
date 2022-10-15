@@ -1,0 +1,45 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <!--<preference for="Magento\Catalog\Api\ProductRepositoryInterface"-->
+                <!--type="Dependency\Inject\Model\CustomImplementation" />-->
+
+    <!--<preference for="Dependency\Inject\Api\PencilInterface"-->
+                <!--type="Dependency\Inject\Model\Pencil" />-->
+
+    <!--<preference for="Dependency\Inject\Api\Category"-->
+                <!--type="Dependency\Inject\Model\Flour"/>-->
+
+    <!--<preference for="Dependency\Inject\Api\Price"-->
+                <!--type="Dependency\Inject\Model\Hundered"/>-->
+
+    <!--<preference for="Dependency\Inject\Api\Color"-->
+                <!--type="Dependency\Inject\Model\White" />-->
+
+    <!--<preference for="Dependency\Inject\Api\Size"-->
+                <!--type="Dependency\Inject\Model\Big" />-->
+
+    <!--<preference for="Dependency\Inject\Api\MobileInterface"-->
+                <!--type="\Dependency\Inject\Model\Keypad" />-->
+
+    <!--<type name="Dependency\Inject\Model\Pencil">-->
+        <!--<arguments>-->
+            <!--<argument name="color" xsi:type="object">Dependency\Inject\Model\Green</argument>-->
+            <!--<argument name="size" xsi:type="object">Dependency\Inject\Model\Small</argument>-->
+        <!--</arguments>-->
+    <!--</type>-->
+
+    <!--<type name="Dependency\Inject\Model\Student">-->
+        <!--<arguments>-->
+            <!--<argument name="name" xsi:type="string">Bob</argument>-->
+            <!--<argument name="age" xsi:type="number">35</argument>-->
+            <!--<argument name="score" xsi:type="array">-->
+                <!--<item name="Maths" xsi:type="number">100</item>-->
+                <!--<item name="Computer Science" xsi:type="number">99</item>-->
+            <!--</argument>-->
+        <!--</arguments>-->
+    <!--</type>-->
+
+</config>
+
+
